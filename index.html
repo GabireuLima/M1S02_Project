@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Gabriel Eventos</title>
+        <link href="./index.css" rel="stylesheet">
+    </head>
+    
+    
+    
+    <body>  
+        <header class="header">
+            
+            <nav class="header-navbar">
+                <a href="#" class="header-name">GABEventos</a>
+                
+
+                <label>
+                    <input class="input-search" type="text">
+                    <submit class="btn">Buscar</submit>
+                </label>
+
+                <ul class="nav-list">
+                    <li class="nav-item"><a class="active" href="#">Home</a></li>
+                    <li class="nav-item"><a href="#">About us</a></li>
+                    <li class="nav-item"><a href="#">Cadastre-se</a></li>
+                    <li class="nav-item"><a href="#">Entrar</a></li>
+                </ul>
+            </nav>
+
+        </header>
+        
+        <main class="main">
+            <div class="main-event">
+                <img class="main-event-folder" src="assets/cbjr_folder.jpg" width="100%" height="700px">
+                    
+                <h1>DETALHES DO EVENTO</h1>
+                    
+                <h1><strong>CHARLIE BROWN JR NA PRAIA BRAVA </strong></h1>
+                <h2>QUANDO?? 23.03.2022 - 20H</h2>
+                <h2>ONDE?? BELVEDERE </h2>
+                <h2>INGRESSOS ANTECIPADOS NO LOCAL OU ATRAVÉS DA <a href="#" class="main-event-link">Pré-Venda</a></h2><br> 
+            </div>        
+        
+            
+            <aside class="belvedere-map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5030.333615083245!2d-48.62944930602118!3d-26.93575306099859!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc35201a7a4764f96!2sBelvedere%20Beach%20Club!5e0!3m2!1spt-BR!2sbr!4v1646857330008!5m2!1spt-BR!2sbr" width="900" height="550" style="border:0;" allowfullscreen="" loading="lazy"></iframe><hr>
+            </aside> 
+        </main> 
+        
+        <h2 class="secondary-events">EVENTOS DO TRIMESTRE</h2>
+            
+        <div class="card-container">
+
+                
+            <div class="card" id="card-1">
+                <img src="assets/woman_in_car.jpg" alt="Lust Car" width="450px" height="300px">
+                <div class="card-content">
+                    <h4><b>Exposição de Carros de Luxo</b></h4>
+                    <p>Data: 25/03/22 início às 14h.
+                    <br><br>Local: BELVEDERE BEACH CLUB</p>   
+                </div>
+            </div>
+            <div class="card" id="card-2">
+                <img src="assets/drinks-card.jpg" alt="Drinks" width="450px" height="300px">
+                <div class="card-content">
+                    <h4><b>Degustação de Drinks Parisienses</b></h4>
+                    <p>Data: 29/03/22 início às 20h.
+                    <br><br>Local: BELVEDERE BEACH CLUB</p>
+                </div>
+            </div>
+            <div class="card" id="card-3">
+                <img src="assets/dual_men.jpg" alt="two men" width="450px" height="300px">
+                <div class="card-content">
+                    <h4><b>Claudinho e Bochecha</b></h4>
+                    <p>Data: 02/04/22 início às 21h
+                    <br><br>Local: BELVEDERE BEACH CLUB</p>  
+                </div>
+            </div>
+
+        </div>    
+
+
+        <div class="card-container-2">
+
+            <div class="card" id="card-4">
+                <img src="assets/woman-party.jpg" alt="Woman party" width="450px" height="300px">
+                <div class="card-content">
+                    <h4><b>Woman Party Night</b></h4>
+                    <p>Data: 08/03/22 início às 21h
+                    <br><br>Local: BELVEDERE BEACH CLUB</p>  
+                </div>
+            </div>
+            <div class="card" id="card-5">
+                <img src="assets/skank-band.jpg" alt="Skank band" width="450px" height="300px">
+                <div class="card-content">
+                    <h4><b>SKANK AO VIVO</b></h4>
+                    <p>Data: 07/04/22 início às 20h
+                    <br><br>Local: BELVEDERE BEACH CLUB</p>  
+                </div>
+            </div>
+            <div class="card" id="card-6">
+                <img src="assets/latin-party.jpg" alt="Party" width="450px" height="300px">
+                <div class="card-content">
+                    <h4><b>Tarde Latina</b></h4>
+                    <p>Data: 20/04/22 início às 15h
+                    <br><br>Local: BELVEDERE BEACH CLUB</p>  
+                </div>
+            </div>
+
+        </div>
+
+        <div class="formulário">
+                
+            <h4 class="form-title">ENTRE EM CONTATO CONOSCO</h4>
+                
+            <form id="contact-form" action="#" method="POST">
+                <div class="row">
+                    <label for="name">Seu nome</label><br>
+                    <input id="name" class="input" name="name" type="text" value="" size="50px"><br><br>
+                        
+                </div>
+                <div class="row">
+                    <label for="email">Email</label><br>
+                    <input id="email" class="input" name="email" type="text" value="" size="50px"><br><br>
+                </div>
+                <div class="row">
+                    <label for="message">Mensagem</label><br>
+                    <textarea id="message" class="input" name="message" rows="10" cols="50"></textarea><br>
+                    <span id="message_validation" class="error_message"></span>
+                </div>
+                        
+                    <input id="submit_button" type="submit" value="Send email">
+            </form>
+
+        </div>
+       
+        
+        <footer class="footer">
+            Contato: (00) 0000-0000<br>
+            Endereço: Rua Taratinguetá, 123, Anywhere.<br>
+            <a href="#">Trabalhe Conosco</a>
+       
+        </footer>
+
+    </body>
+</html>

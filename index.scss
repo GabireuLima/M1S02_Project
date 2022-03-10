@@ -1,0 +1,169 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(236, 236, 236);
+    text-align: center;
+    font-family: monospace;
+}
+
+.header{
+    width: 100%;
+}
+
+.header-name{
+    padding: 15px;
+    font-size: 20px;
+    color: rgb(195, 94, 235);
+    text-decoration: none;
+    background-color: rgb(43, 2, 43);
+    padding-top: 30px;
+    font-family:fantasy;
+}
+
+.header-navbar{
+    background-color: rgb(242, 69, 248);
+    display: flex;
+    top: 0;
+    justify-content: space-around; 
+    position: fixed; 
+    width: 100%; 
+    height: 80px;
+}
+
+.nav-list{
+    list-style: none;
+    display: flex;
+    margin-right: 200px;
+}
+
+.nav-item{
+    background-color: rgb(242, 69, 248);
+    text-align: center;
+    padding: 11px;
+    border: 1px solid white;
+    border-radius: 10px 10px 10px 10px;
+    list-style: none;
+    margin-right: 90px;        
+}
+
+li a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 30px;
+}
+
+li a:hover{
+    color: white;
+    border-radius: 10px;
+    transition :300ms;
+}
+
+.input-search{
+    display: inline-block;
+    margin-top: 35px;
+    margin-right: 12px;
+    width: 250px;
+    height: 22px;
+    border: 1px solid black;
+}   
+
+.btn{
+    border: 1px solid rgb(255, 251, 251);
+    padding: 10px;
+    bottom: 0;
+    font-size: 25px;
+    color: rgb(5, 5, 5);
+}
+
+.btn:hover{
+    color: white;
+    border-radius: 10px 10px 10px 10px;
+    transition :300ms;
+}
+
+.main-event{
+    margin-top: 110px;
+}
+
+.main-event-link{
+    font-size: 28px;
+    border: 2px solid black;
+    border-radius: 10px 10px 10px 10px;
+    text-decoration: none;
+    padding: 4px;
+}  
+
+.card-container{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 80px;
+}
+
+.card-container-2{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 80px;
+}
+
+#card-1{
+    background-color: rgb(139, 113, 255);
+    border-radius: 10px 10px 10px 10px;
+}
+
+#card-2{
+    background-color: green;
+    border-radius: 10px 10px 10px 10px;
+}
+
+#card-3{
+    background-color: blue;
+    border-radius: 10px 10px 10px 10px;
+}
+
+#card-4{
+    background-color: rgb(255, 74, 74);
+    border-radius: 10px 10px 10px 10px;
+}
+
+#card-5{
+    background-color: rgb(230, 255, 87);
+    border-radius: 10px 10px 10px 10px;
+}
+
+#card-6{
+    background-color: rgb(151, 0, 0);
+    border-radius: 10px 10px 10px 10px;
+}
+.card-content{
+    font-size: 20px;
+}
+
+.formulário{
+    margin-top: 50px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer{
+    display: inline-block;
+    font-size: 15px;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    height: 44px;
+    background-color: rgba(0, 0, 0, 0.733);
+}
+
+.footer a{
+    margin-left: 50px;
+    text-decoration: none;
+    color: white;
+}
+
+.footer a:hover{
+    color: blue;
+}
+
